@@ -1,3 +1,7 @@
+import = [
+    "~/.config/alacritty/themes/themes/github_dark_tritanopia.toml"
+]
+
 [font]
 normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
 size = 14
