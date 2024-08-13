@@ -234,7 +234,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && dunstify -u low -r 2593 -t 2000 " $(pactl get-source-mute @DEFAULT_SOURCE@)" && $refresh_i3status
 
 # Browser setup
-bindsym $mod+b exec brave
+bindsym $mod+b exec brave-browser
 
 # Ranger setup
 bindsym $mod+e exec alacritty -e ranger
