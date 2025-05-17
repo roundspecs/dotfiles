@@ -226,3 +226,6 @@ bindsym XF86MonBrightnessDown exec --no-startup-id sudo /usr/bin/brightnessctl s
 exec --no-startup-id feh --bg-scale ~/.config/i3/files/wallpaper.jpg
 
 exec --no-startup-id redshift
+
+# flameshot
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui
