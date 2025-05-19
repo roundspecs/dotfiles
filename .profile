@@ -28,3 +28,4 @@ fi
 
 export XDG_DATA_DIRS="/var/lib/flatpak/exports/share/applications/:$XDG_DATA_DIRS"
 
+. "$HOME/.cargo/env"
