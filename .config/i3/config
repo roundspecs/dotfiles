@@ -64,7 +64,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+q kill
@@ -229,3 +229,6 @@ exec --no-startup-id redshift
 
 # flameshot
 bindsym $mod+Shift+s exec --no-startup-id flameshot gui
+
+# picom
+exec --no-startup-id picom --experimental-backends
