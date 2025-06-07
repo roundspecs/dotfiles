@@ -1,0 +1,4 @@
+#!/bin/sh
+xinput set-prop "MSFT0001:01 06CB:CE2D Touchpad" "libinput Tapping Enabled" 1
+xinput set-prop "MSFT0001:01 06CB:CE2D Touchpad" "libinput Natural Scrolling Enabled" 1
+xinput disable "GTCH7503:00 2A94:D64D"
