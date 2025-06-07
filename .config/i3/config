@@ -237,8 +237,8 @@ bindsym $mod+x exec --no-startup-id i3lock --nofork -c 000000
 bindsym $mod+Shift+x exec --no-startup-id poweroff
 
 # brightnessctl
-bindsym XF86MonBrightnessUp exec --no-startup-id sudo /usr/bin/brightnessctl set +80
-bindsym XF86MonBrightnessDown exec --no-startup-id sudo /usr/bin/brightnessctl set 80-
+bindsym XF86MonBrightnessUp exec --no-startup-id sudo brightnessctl set +80
+bindsym XF86MonBrightnessDown exec --no-startup-id sudo brightnessctl set 80-
 
 exec --no-startup-id feh --bg-scale ~/.config/i3/files/wallpaper.jpg
 
